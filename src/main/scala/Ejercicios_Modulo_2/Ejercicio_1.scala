@@ -23,7 +23,7 @@ object Ejercicio_1 extends App {
     csvFile.close()
   }
 
-  val filePath: String = raw"C:\\Users\\XMX7500\\Desktop\\Indra_Docs\\Precurso_Datio\\Docs_Examen\\RealEstate.csv"
+  val filePath: String = raw"src\main\resources\RealEstate.csv"
   parseFile(pathToFile=filePath)
 
 }
